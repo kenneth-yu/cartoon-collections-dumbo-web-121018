@@ -25,11 +25,5 @@ end
 def find_the_cheese(string)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each do |x|
-    cheese_types.each do |y|
-      if x == y 
-        return "#{x}"
-      end
-    end
-  return nil 
+  for 
 end
