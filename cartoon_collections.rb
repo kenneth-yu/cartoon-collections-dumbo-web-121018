@@ -15,8 +15,10 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.each do |x|
-    x.length
+  if array.size > 3
+    return false 
+  else 
+    return true 
 end
 
 def find_the_cheese# code an argument here
