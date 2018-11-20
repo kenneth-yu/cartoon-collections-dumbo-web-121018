@@ -16,9 +16,9 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   if array.size > 3
-    return false 
-  else 
     return true 
+  else 
+    return false
   end
 end
 
