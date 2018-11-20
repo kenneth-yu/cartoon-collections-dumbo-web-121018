@@ -2,10 +2,9 @@ require 'pry'
 def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   dwarves.each_with_index do |item,index|
-    binding.pry
     puts "#{index}. #{item}"
-    binding.pry
   end
+  binding.pry
 end
 
 def summon_captain_planet# code an argument here
