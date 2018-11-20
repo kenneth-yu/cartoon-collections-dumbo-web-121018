@@ -25,5 +25,11 @@ end
 def find_the_cheese(string)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  for 
+  if string.size > cheese_types.size
+    i = string.size 
+    j = cheese_types.size
+  else 
+    i = cheese_types.size
+    j = string.size
+  for i in j do
 end
