@@ -31,5 +31,6 @@ def find_the_cheese(string)# code an argument here
   else 
     i = cheese_types.size
     j = string.size
-  for i in j do
+  for i in j 
+    
 end
