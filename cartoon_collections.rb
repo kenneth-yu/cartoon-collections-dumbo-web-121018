@@ -25,5 +25,5 @@ end
 def find_the_cheese(string)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  string & cheese_types.to_a
 end
