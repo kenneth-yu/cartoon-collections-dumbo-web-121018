@@ -32,8 +32,6 @@ def find_the_cheese(string)# code an argument here
       return cheese_types[1]
     elsif x == cheese_types[2]
       return cheese_types[2]
-    else 
-      return nil
     end
   end
 end
